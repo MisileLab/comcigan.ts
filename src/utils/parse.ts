@@ -1,4 +1,4 @@
-import { RegExes } from '../constants'
+import { RegExes } from '../constants.ts'
 
 // biome-ignore lint/suspicious/noExplicitAny: any as default
 export const parseResponse = <T = any>(str: string): T =>
