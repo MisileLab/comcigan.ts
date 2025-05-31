@@ -1,4 +1,4 @@
-import { decode } from 'iconv-lite'
+import { decode } from 'npm:iconv-lite'
 import { RegExes } from './constants.ts'
 import type HTTP from './http.ts'
 import { Buffer } from 'node:buffer';
