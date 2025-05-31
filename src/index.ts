@@ -1,4 +1,4 @@
-export { default } from './client'
+export { default as Client } from './client'
 
 export { default as Region } from './models/Region'
 export { default as School } from './models/School'
