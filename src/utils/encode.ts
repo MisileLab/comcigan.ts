@@ -1,4 +1,4 @@
-import { encode } from 'iconv-lite'
+import { encode } from 'npm:iconv-lite'
 import { Buffer } from 'node:buffer';
 
 export const encodeEUCKR = (str: string) =>

@@ -1,4 +1,4 @@
-import { request } from 'undici'
+import { request } from 'npm:undici'
 
 export default class HTTP {
   private readonly baseURL: string
