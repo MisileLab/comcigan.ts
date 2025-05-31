@@ -1,4 +1,4 @@
-import type Comcigan from '../client'
+import type Comcigan from '../client.ts'
 
 export default class Fetcher {
   protected readonly client!: Comcigan

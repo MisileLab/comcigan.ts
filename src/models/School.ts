@@ -1,7 +1,7 @@
-import Comcigan from '../client'
-import Fetcher from './Fetcher'
-import type Region from './Region'
-import type { Timetable } from './Timetable'
+import Comcigan from '../client.ts'
+import Fetcher from './Fetcher.ts'
+import type Region from './Region.ts'
+import type { Timetable } from './Timetable.ts'
 
 interface ISchool {
   /** 학교 코드 */

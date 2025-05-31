@@ -1,11 +1,11 @@
-import { BASE_URL, USER_AGENT } from './constants'
-import DataManager from './data'
-import HTTP from './http'
-import School from './models/School'
-import type { Timetable } from './models/Timetable'
-import { mergeMap } from './utils/array'
-import { encodeBase64, encodeEUCKR } from './utils/encode'
-import { parseResponse } from './utils/parse'
+import { BASE_URL, USER_AGENT } from './constants.ts'
+import DataManager from './data.ts'
+import HTTP from './http.ts'
+import School from './models/School.ts'
+import type { Timetable } from './models/Timetable.ts'
+import { mergeMap } from './utils/array.ts'
+import { encodeBase64, encodeEUCKR } from './utils/encode.ts'
+import { parseResponse } from './utils/parse.ts'
 
 export default class Comcigan {
   private readonly http = new HTTP({
